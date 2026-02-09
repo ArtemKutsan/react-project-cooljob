@@ -111,3 +111,7 @@ section#hero {
 .text-center {
   text-align: center;
 }
+
+text-muted {
+  color: rgba(105, 105, 105, 0.8);
+}
