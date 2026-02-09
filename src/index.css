@@ -1,0 +1,121 @@
+/* src/index.css */
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/fonts/Quicksand/Quicksand-VariableFont.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Quicksand', system-ui, sans-serif;
+  display: flex;
+  min-height: 100dvh;
+  color: #000;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  text-wrap: balance;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'],
+textarea {
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  border-radius: 0.75rem;
+  min-height: 2rem;
+  outline: none;
+}
+input[type='number'] {
+  appearance: textfield;
+} */
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 1024px;
+  /* padding: 0 2rem; */
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
