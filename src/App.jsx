@@ -1,6 +1,7 @@
 // src/App.jsx
 import './App.css';
 import Header from './components/sections/Header';
+import Partners from './components/sections/Partners';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <div className="container">
           <h1>React project Cooljob</h1>
         </div>
-        {/* <section id=""></section> */}
+        <section id="partners">
+          <Partners />
+        </section>
       </main>
       {/* <Footer /> */}
     </>
