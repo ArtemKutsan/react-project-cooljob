@@ -1,0 +1,13 @@
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: auto;
+}
+
+@media (max-width: 719px) {
+  .partners {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
