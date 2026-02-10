@@ -68,10 +68,9 @@ input[type='email'],
 input[type='password'],
 input[type='number'],
 textarea {
-  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0 1rem;
-  border-radius: 0.75rem;
-  min-height: 2rem;
+  min-height: 2.5rem;
   outline: none;
 }
 input[type='number'] {
