@@ -1,0 +1,16 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials img {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.socials img:hover {
+  opacity: 0.6;
+}

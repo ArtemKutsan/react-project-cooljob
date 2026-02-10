@@ -1,0 +1,25 @@
+.title {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  list-style: none;
+  margin: 0 0 2rem 0;
+  justify-content: space-between;
+}
+
+.city {
+  color: #d0e8ff;
+  cursor: pointer;
+  transition: 0.25s ease;
+  font-size: 1.5rem;
+}
+
+.city:hover {
+  opacity: 0.8;
+}

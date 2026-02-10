@@ -1,0 +1,23 @@
+.heroBg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #cde7ff;
+  background-image: url('/images/hero-bg.svg');
+  background-position: bottom center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -10;
+  background: linear-gradient(to top left, #91c9ff 50%, #cde7ff 50%);
+}
+
+/* .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 512px;
+  position: relative;
+  padding: 1rem 0;
+} */

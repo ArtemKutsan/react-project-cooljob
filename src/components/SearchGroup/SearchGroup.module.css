@@ -1,0 +1,21 @@
+/* SearchGroup.module.css */
+.searchGroup {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  width: 75%;
+  gap: 2rem;
+}
+
+.divider {
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1rem;
+}
+
+@media (max-width: 1440px) {
+  .searchGroup {
+    width: 100%;
+  }
+}

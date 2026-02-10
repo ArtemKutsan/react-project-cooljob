@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-left: auto;
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .partners {
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 0;
+  }
+}

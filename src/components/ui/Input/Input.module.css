@@ -1,0 +1,22 @@
+/* src/components/Input/Input.module.css */
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+  position: relative;
+}
+
+.input {
+  flex: 1;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  outline: none;
+  font-family: inherit;
+  /* font-size: 1rem; */
+  line-height: 1;
+  color: rgba(0, 0, 0, 1);
+  background: none;
+  width: 100%;
+}
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}

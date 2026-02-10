@@ -1,0 +1,26 @@
+.header {
+  top: 0;
+  z-index: 10;
+  padding: 1rem 0;
+  width: 100%;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.inner {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

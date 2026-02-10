@@ -16,6 +16,24 @@
 
 section#hero {
   flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 0 2rem 0;
+}
+
+section#partners {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+section#categories {
+  background-color: #e4f2ff;
+  padding: 4rem 0;
+}
+
+section#vacancies {
+  background-color: #e4f2ff;
+  padding: 4rem 0;
 }
 
 .title {
@@ -110,4 +128,8 @@ section#hero {
 
 .text-center {
   text-align: center;
+}
+
+.text-muted {
+  color: rgba(105, 105, 105, 0.8);
 }
