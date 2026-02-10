@@ -11,8 +11,8 @@ const customers = [
 
 export default function Partners() {
   return (
-    <div className="container" style={{ display: 'flex' }}>
-      <p classNAme="text-muted">Помогаем найти работу:</p>
+    <div className={[styles.wrapper, 'container'].join(' ')}>
+      <p className="text-muted">Помогаем найти работу:</p>
       <div className={styles.partners}>
         {customers.map((customer) => (
           <div key={customer.src} className={styles.logoItem}>
