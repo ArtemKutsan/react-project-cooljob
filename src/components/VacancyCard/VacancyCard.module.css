@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #ffffff;
+  padding: 2rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.125);
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.category {
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.title {
+  font-weight: 700;
+  color: #000;
+}
+
+.location {
+  color: #6a6a6a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  /* width: 1.5rem; */
+  height: 1rem;
+}
+
+.time {
+  color: #8a8a8a;
+}
