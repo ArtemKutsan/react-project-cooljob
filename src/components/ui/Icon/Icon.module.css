@@ -1,0 +1,7 @@
+/* src/components/Icon/Icon.module.css */
+.icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
