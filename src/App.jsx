@@ -4,7 +4,7 @@ import Header from './components/sections/Header';
 import Hero from './components/sections/Hero';
 import Partners from './components/sections/Partners';
 import Categories from './components/sections/Categories';
-// import Vacancies from './components/sections/Vacancies';
+import Vacancies from './components/sections/Vacancies';
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
           <Categories />
         </section>
 
-        {/* <section id="vacancies">
+        <section id="vacancies">
           <Vacancies />
-        </section> */}
+        </section>
       </main>
       {/* <Footer /> */}
     </>
