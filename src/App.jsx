@@ -1,6 +1,7 @@
 // src/App.jsx
 import './App.css';
 import Header from './components/sections/Header';
+import Footer from './components/sections/Footer';
 import Hero from './components/sections/Hero';
 import Partners from './components/sections/Partners';
 import Categories from './components/sections/Categories';
@@ -31,7 +32,7 @@ function App() {
           <Vacancies />
         </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
