@@ -3,7 +3,7 @@
   z-index: 10;
   padding: 1rem 0;
   width: 100%;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
 }
 
 .inner {
