@@ -1,7 +1,7 @@
 // src/components/SearchGroup/index.jsx
 import styles from './SearchGroup.module.css';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
+import Button from '../ui/Button';
+import Input from '../ui/Input';
 
 function SearchGroup() {
   return (

@@ -1,6 +1,7 @@
 // src/components/Vacancies/index.jsx
 import styles from './Vacancies.module.css';
 import VacancyCard from '../../VacancyCard';
+import Button from '../../ui/Button';
 
 const vacancies = [
   {
@@ -78,6 +79,10 @@ function Vacancies() {
           <VacancyCard key={vacancy.id} {...vacancy} />
         ))}
       </div>
+
+      <Button variant="primary" size="2xl" style={{ display: 'block', margin: '2rem auto 0' }}>
+        Все вакансии
+      </Button>
     </div>
   );
 }

@@ -17,7 +17,13 @@ const SIZES = {
   '6xl': styles.button6xl,
 };
 
-export function Button({ variant = 'base', size = 'base', className = '', children, ...props }) {
+export default function Button({
+  variant = 'base',
+  size = 'base',
+  className = '',
+  children,
+  ...props
+}) {
   return (
     <button
       {...props}
