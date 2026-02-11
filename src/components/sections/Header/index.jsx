@@ -1,7 +1,7 @@
 // src/components/sections/Header/index.jsx
 import styles from './Header.module.css';
 import Navigation from './Navigation';
-import { Button } from '../../ui/Button';
+import Button from '../../ui/Button';
 
 export default function Header() {
   return (
